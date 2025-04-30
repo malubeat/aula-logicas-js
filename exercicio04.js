@@ -1,16 +1,20 @@
-const futuramento ={
-    primeiroTrimestre:10.650,
-    segundoTrimestre :20.000,
-    terceiroTrimestre :35.000
+const  faturamento = {
+    primeiroTrimestre: 10650,
+    segundoTrimestre: 20000,
+    terceiroTrimestre: 35000
 }
- const mediaFaturamento = ((faturamento.primeiroTrimestre +segundoTrimestre + terceiroTrimestre) /3).toFixed(2)
 
- console.log(`a media do faturamento é ${mediaFaturamento}`)
+const{primeiroTrimestre,segundoTrimestre,terceiroTrimestre} = faturamento
 
- if(mediaFaturamento >= 25000){
-    console.log('média esperada')
- } else{
-    console.log("media ABIXO do esperado ")
- }
+const mediaDeFaturamento = ((primeiroTrimestre + segundoTrimestre + terceiroTrimestre) / 3).toFixed(2)
 
-    
+console.log(`Media de Faturameto ${mediaDeFaturamento}`)
+
+if(mediaDeFaturamento >= 25000){
+    console.log("Media esperada")
+}
+else{
+    console.log("Abaixo do esperado")
+}
+
+
