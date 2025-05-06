@@ -1,72 +1,59 @@
 // function saudacao(){
-//     console.log("Bom dia!")
+//     console.log("Bom Dia!")
 // }
 
-//arrow function com parametros
+// arrow function com parâmetros:
 
-// const saudacao = (turno, nome = "Ângela")=>{
-//     console.log(` ${turno} ${nome}`)
+// const saudacao = (turno,nome="Geovanna") =>{
+//     console.log(`${turno} ${nome}`)
 // }
 
-// saudacao("Bom dia",  "Geovanna")
-// saudacao("Boa noite")
+// saudacao("Bom Dia","Ângela")
+// saudacao("Boa Noite")
 
-// const soma =(x,y)=>{
+// const soma = (x,y)=>{
 //     return x+y
 // }
 
-// const soma =(x,y,z)=> x+y+z
+const soma = (x,y)=> x+y
+const subtracao = (x,y) => x-y
+const divisao = (x,y) => x/y
+const multiplicacao = (x,y) => x*y
 
 
-// const resultadoDaSoma = soma(5,8,9)
+// const resultadoDaSoma = multiplicacao(5,7,1)
 
 // console.log(resultadoDaSoma)
 
-//função retornando o cálculo de duas fuções
-
-const soma =(x,y)=> x+y
-
-const subtração = (x,y) => x-y
-
-const multiplicacao =(x,y) => x*y
-
-const divisao = (x,y) => x/y
-
-
-
-// const calculo = (x,y,z,a)=>{
+// função retornando o cálculo de duas funções: 
+// const calculo = (x,y,z,a) =>{
 //     return soma(x,y) + multiplicacao(z,a)
 // }
 
-// const resultadoDocalculo = calculo(10,2,5,7)
+// const resultadoDoCalculo = calculo(10,2,5,7)
 
-// console.log("resultado do cálculo" ,  resultadoDocalculo)
+// console.log("Resultado do Cálculo: ",resultadoDoCalculo)
 
-// retornar o valor de várias fuções em um return dentro de um objeto
+//retornar o valor de várias funções em um return dentro de um objeto
 
-// const calculo = (x,y)=>{
+// const calculo = (x,y) =>{
 //     return{
 //         soma: soma(x,y),
-//         subtração: subtração(x,y),
+//         subtracao: subtracao(x,y),
 //         multiplicacao: multiplicacao(x,y),
 //         divisao: divisao(x,y)
 //     }
 // }
 
-// const resultadofinalDocalculo = calculo(20,10)
+// const resultadoFinalDoCalculo = calculo(20,10)
+// console.log("Resultado final: ", resultadoFinalDoCalculo)
 
-// console.log("resultado final", resultadoFinalDocalculo)
-
-//escopo global e local(de bloco ou função)
+// escopo global e de local (de bloco ou função)
 
 const escopoGlobal = "Escopo Global"
 
 function chamaEscopo(){
-    const escopolocal = "Escopo Local"
-    console.log(escopoGlobal)
+    const escopoGlobal = "Escopo local"
+    console.log("Escopo local",escopoGlobal)
 }
-
-console.log(escopolocal)
-
-
-
+console.log(escopoLocal)
