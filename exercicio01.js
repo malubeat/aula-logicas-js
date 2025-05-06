@@ -1,18 +1,21 @@
-// crie uma variavel que seja array de objeto que tenha os seguintes pares: chave e valor
+// Crie uma variável que seja um array de objeto que tenha os seguintes pares: chave e valor
 
-//nome da variavel => users
+// nome da variável => users
 
-// valores => um objeto com os valores login, password, cursos, sendo cursos um array com dois valores
+// valores => um objeto com valores login, password, cursos, sendo cursos um array com valores 
 
-// renderizar no console a seguinte frase com o primeiro user do array 'Meu login é $(login), minha senha é &(password) e faço os cursos x e y'
+//rederizar no console a seguintes frase com o primeiro user do array 'Meu login é ${login}, minha senha é ${password} e faço os cursos x e y'
 
 
-const users = [
+
+
+const user = [
     {
-        login:"login@01",
-        password:"password.0123",
-        cursos:["arquitetura","gastronomia"]
+        login:"Caroline",
+        password:"1604",
+        cursos:["games","design"]
+
     }
 ]
 
-console.log(`Meu login é ${users[0].login}, minha senha é ${users[0].password} e faço os cursos ${users[0].cursos[0]} e ${users[0].cursos[1]}`)
+console.log(`Meu login é ${user[0].login}, minha senha é ${user[0].password} e faço os cursos ${user[0].cursos [0]} e ${user[0].cursos[1]}`)

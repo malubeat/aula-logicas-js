@@ -1,65 +1,54 @@
-// const numeros = [1,2,3,4,5]
+// const numeros = [1, 2, 3, 4, 5]
 
 // const pares = numeros.filter(num => num % 2 === 0)
 
-// // console.log("Números Pares",pares)
-
-// const produtos = [
-//     {
-//         nome: "Notebook",
-//         preco: 3000,
-//     },
-//     {
-//         nome: "Mouse",
-//         preco: 50,
-//     },
-//     {
-//         nome: "Mouse",
-//         preco: 500,
-//     },
-//     {
-//         nome: "Monitor",
-//         preco: 1200,
-//     },
-//     {
-//         nome: "Teclado",
-//         preco: 120,
-//     },
-// ]
-
-// // const produtoMaioresQueMil = produtos.filter(produto => produto.preco > 1000)
-// const produtoMouses = produtos.filter (produtos => produtos.nome == `${"Mouse"}`)
-
-// // console.log(produtoMouses)
-
-
-const numeros = [2,5,7,10]
-const soma = numeros.reduce((total,num) => total + num, 0)
-
-// console.log(soma)
+// console.log("números pares" , pares)
 
 const produtos = [
-        {
-            nome: "Notebook",
-            preco: 3000,
-        },
-        {
-            nome: "Mouse",
-            preco: 50,
-        },
-        {
-            nome: "Mouse2",
-            preco: 500,
-        },
-        {
-            nome: "Monitor",
-            preco: 1200,
-        },
-        {
-            nome: "Teclado",
-            preco: 120,
-        },
-    ]
+    {
+        nome: "Notebook",
+        preco: 3000
+    },
+    {
+        nome:"Mause",
+        preco:50
+    },
+    {
+        nome:"Mause",
+        preco:78
+    },
+    {
+        nome:"Monitor",
+        preco:1200
+    },
+    {
+        nome:"Teclado",
+        preco:120
+    }
+]
 
-    const total = produtos.reduce((soma,produto) => soma + produto.preco , 0)
-    console.log(total)
+// const produtosMaioresQueMil = produtos.filter(produto => produto.preco > 1000)
+// console.log(produtosMaioresQueMil)
+
+const todosOsMause = produtos.filter(produtos => produtos.nome == `${"Mause"}`)
+
+console.log(todosOsMause)
+
+
+// const Mauses = [
+//     {
+//     nome:"Mause01",
+//     preco:20
+//     },
+//     {
+//       nome:"Mause02",
+//       preco:56
+//     },
+//     {
+//         nome:"Mause03",
+//         preco:71
+//     }
+// ]
+
+// const mausesExe = Mauses.filter(mause => mause.preco)
+// console.log(mausesExe)

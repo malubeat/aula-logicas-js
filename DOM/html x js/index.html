@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM - Javascript</title>
+    <title>Dom - Javadcrip</title>
 </head>
 <body>
-    
-    <button onclick="alert('Abrindo a janela inline')">Clique Aqui!</button>
 
-    <button id="abreAlert">Abre Janela Incorporado</button>
-    <button id="abreAlertVinculado">Abre Janela Vinculado</button>
+    <button onclick="alert('Abrindo a janela inline')">Clique aqui!</button>
+
+    <button id="abreAlert">Abre janela Incorporado</button>
+
+    <button id="abreAlertVinculado">Aber janela Vinculado</button>
 
     <script>
         const btAbreAlert = document.getElementById("abreAlert")
-        // console.log("Botão alert",btAbreAlert)
+
+        // console.log("botão alerte",btAbreAlert)
+
         btAbreAlert.addEventListener("click", ()=>{
-            alert("Abrindo Janela no Código Incorporado")
+            alert("abrindo a janela do condigo incorporado")
         })
     </script>
 
     <script src="scripts.js"></script>
-
+    
 </body>
 </html>

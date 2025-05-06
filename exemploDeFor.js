@@ -1,56 +1,60 @@
-let num = 10
+// let soma = 0;
+// for (let i = 0; i < notas length) num = 10
 // num = num + 5
 // num += 5
 
-//imprime múltiplos de 5 de 0 e 100, excluindo o 0
+//imprime múltiplos de 5 de 0 a 100, excluindo o 0
 
-// for(let i = 0; i <= 100; i += 5){
-//     if(i > 0){
+// for (let soma = 0;
+// for (let i = 0; i < notas length) i = 0; i <= 100; i += 5) {
+//     if (i > 0) {
 //         console.log(i)
 //     }
-    
 // }
 
-// function somaSeMaiorQue10(a, b){
-//     if(a>10 && b>10){
-//         return a+b;
-//     } else{
-//         return "Números insufucientes"
+
+//soma se os dois valores for maior que 10
+
+// function somaSeMaiorQue10(a,b){
+//     if(a>10 && b> 10){
+//         return a + b;
+//     }
+//     else{
+//         return "Núrmeros insuficientes"
 //     }
 // }
 
-// console.log(somaSeMaiorQue10(12,20))
+// console.log(somaSeMaiorQue10(8,20))
 
-// função para calcular média
+//função para calcular média
 
-// function verificaMedia(notas){
+// function verificaMedia(notas) {
 //     let soma = 0;
-//     for(let i = 0; i < notas.length; i++){
+//     for (let i = 0; i < notas.length; i++) {
 //         soma += notas[i]
 //     }
 //     const media = soma / notas.length
 //     return media >= 7 ? "Aprovado" : "Reprovado"
 // }
 
-// console.log(verificaMedia([8,8,8,8]))
-
+// console.log(verificaMedia([6,5,4,3]))
 
 // let vogais = ["a","e","i","o","u"]
-// let verificaVogalEmArray = vogais.includes("p")
+// let verificaVogalEmArry = vogais.includes("e")
 
-// console.log(verificaVogalEmArray)
+// console.log(verificaVogalEmArry)
 
-// let palavra = "Texto"
-// let palavraConvertidaEmCaixa = palavra.toLowerCase()
+// let palavra = "Texto" 
+// let palavraConvertidaEmCaixa = palavra.toUpperCase()
 
-//  console.log(palavraConvertidaEmCaixa)
+// console.log(palavraConvertidaEmCaixa)
 
-//função que conta a quantidade de vogais dentro de uma palavra
+//função que conta a quantidade de vogais detro de uma palavra 
 
-// function contaVogais(palavra){
+// function contarVogais(palavra){
 //     let vogais = ["a","e","i","o","u"]
 //     let contador = 0
-
+    
 //     for(const letra of palavra.toLowerCase()){
 //         if(vogais.includes(letra)){
 //             contador++
@@ -58,13 +62,16 @@ let num = 10
 //     }
 //     return contador
 // }
-// console.log(contaVogais("love"))
+
+// console.log(contarVogais("Javascript"))
 
 function verificarNumero(n){
-    if(n>=10 && n<= 100 && n % 5 === 0){
-        return "Número Valido!"
-    } else{
-        return "Número Invalido!"
+    if(n>=10 && n<=100 && n % 5 === 0){
+        return "Número válido "
+    }
+    else{
+        return "Número inválido"
     }
 }
-console.log(verificarNumero(27))
+
+console.log(verificarNumero(75))

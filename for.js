@@ -4,16 +4,16 @@
 // console.log(valor)
 
 // function sequenciaNumerica(numeroInicial,numeroFinal){
-//     for(let i = numeroInicial; i<= numeroFinal; i++){
-//         console.log(i)
-//     }
+// for(let i=numeroInicial; i<=numeroFinal; i++){
+//     console.log(i)
 // }
-
+// }
 // sequenciaNumerica(5,30)
+
 
 const frutas = ["laranja","maçã","banana","mamão"]
 
-// frutas.push("abacate")
+frutas.push("abacate")
 
 // console.log(frutas.length)
 

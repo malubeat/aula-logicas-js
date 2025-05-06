@@ -1,17 +1,22 @@
-const notasMatmatica = {
-    primeiroTrimestre : 6,
-    segundoTrimestre : 8,
-    terceiroTrimestre : 9
+const notasMatematica = {
+    primeiroTrimestre: 6,
+    segundoTrimestre: 8,
+    terceiroTrimestre: 9
 }
 
-const {primeiroTrimestre,segundoTrimestre,terceiroTrimestre} = notasMatmatica
+const{primeiroTrimestre,segundoTrimestre,terceiroTrimestre} = notasMatematica
 
-const mediaDeMatematica = ( (primeiroTrimestre + segundoTrimestre + terceiroTrimestre) / 3) .toFixed(2)
+const mediaDeMatematica = ((primeiroTrimestre + segundoTrimestre + terceiroTrimestre) / 3).toFixed(2)
 
 console.log(mediaDeMatematica)
 
 if(mediaDeMatematica >= 7){
-    console.log("Aprovado")
-} else{
-    console.log("Reprovado")
+    console.log("aprovado")
 }
+else{
+    console.log("reprovado")
+}
+
+
+
+// if(mediaDeMatematica >= 7)

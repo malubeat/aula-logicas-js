@@ -1,8 +1,16 @@
-// seleção por ID
+//seleção por ID
 
-const content = document.getElementById("content")
+const content  = document.getElementById("content")
 
-content.innerHTML = `<p>Páragafo de texto</p>` // adiciona elementos de HTML dinamicamente
+content.innerHTML = `<p>Parágrafo de texto</p>`
+//adiciona elemento de html dinamicamente
 
-content.style.backgroundColor = "#F00"
-content.style.fontSize = "30px"
+content.style.backgroundColor="#F00"
+content.style.fontSize="30px"
+
+const classText = document.getElementsByClassName("text")
+console.log("classTexto", classText)
+
+for(text of classText){
+    text.style.color = "#F00"
+}

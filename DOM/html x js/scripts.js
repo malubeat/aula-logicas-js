@@ -1,5 +1,6 @@
- const btAbreAlertVinculado = document.getElementById("abreAlertVinculado")
+const btabreAlertVinculado = document.getElementById
+("abreAlertVinculado")
 
- btAbreAlertVinculado.addEventListener("click", ()=>{
-    alert("Abre Janela Vinculado")
+btabreAlertVinculado.addEventListener("click",()=>{
+    alert("Abre janela Vinculada")
 })
